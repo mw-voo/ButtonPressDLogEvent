@@ -19,7 +19,7 @@ function event:TTTTraitorButtonActivated(ent, ply)
       self.CallEvent({
       [1] = (IsValid(ply) and ply:Nick() or "<Disconnected Player>"),
       [2] = (ply:GetRole()),
-      [3] = ((IsValid(ent) and ent:GetClass()) or "<UnknownEnt>"),
+      [3] = ((IsValid(ent) and ent:GetName()) or "<UnknownEnt>"),
       [4] = (ply:SteamID())
       })
    

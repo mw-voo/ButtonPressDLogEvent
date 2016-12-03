@@ -62,9 +62,6 @@ function event:IsAllowed(tbl)
    if (tbl[5] == 1) and not Damagelog.filter_settings["Show Regular_Button Presses"] then return false end
    if (tbl[5] == 2) and not Damagelog.filter_settings["Show TTT_Button Presses"] then return false end
    return true
-   -- if (tbl[1] == 1 or tbl[1] == 3) and not Damagelog.filter_settings["Show disguisings"] then return false end
-   -- if tbl[1] == 2 and not Damagelog.filter_settings["Show teleports"] then return false end
-   -- if (tbl[1] == 4 or tbl[1] == 5 or tbl[1] == 6 or tbl[1] == 7) and not Damagelog.filter_settings["Show C4 logs"] then return false end
 end
 
 function event:Highlight(line, tbl, text)

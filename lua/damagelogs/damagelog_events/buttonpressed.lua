@@ -15,7 +15,7 @@ local sptime = CurTime()+5
 function event:PlayerUse(ply, ent)
    if !IsValid(ply) then return end
    if ent:GetClass() == "func_button" then
-      if sptime > CurTime() then return else sptime = CurTime()+5 end
+      if sptime > CurTime() then return else sptime = CurTime()+4 end
 
       local ent_name = IsValid(ent) and ent:GetName()
       if #ent_name == 0 then ent_name = "<Unnamed Func_Button>" else ent_name = ent:GetName() end

@@ -6,7 +6,7 @@ A special damagelog event that registers func_buttons and ttt_buttons into damag
 
 To install
 ==============
-Place 'ButtonPressDLogEvent.lua' in '\addons\tttdamagelogs\lua\damagelogs\damagelog_events'
+Copy and paste the folder 'ButtonPressDLogEvent-master' (After extraction) in 'Garrysmod\addons\'
 
 Note: 
 ==============
